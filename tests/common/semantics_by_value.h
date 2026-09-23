@@ -58,7 +58,7 @@ inline std::string get_error_string(int code) { return error_strings[code]; }
 /**
  * @brief Check that the move constructor and move assignment operator of T
  *        are declared noexcept, as required by common by-value semantics
- *        (SYCL 2020 specification, Section 3.5.3). This is a compile-time
+ *        (SYCL 2020 specification, Section 4.5.3). This is a compile-time
  *        check and must only be called from host code.
  */
 template <typename T>
